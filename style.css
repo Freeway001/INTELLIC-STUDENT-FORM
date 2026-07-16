@@ -8,6 +8,23 @@ body {
 
 /* ========= NAVBAR ========= */
 
+.navbar-brand{
+    font-size:1.6rem;
+    font-weight:700;
+}
+
+.nav-link{
+    font-weight:500;
+}
+
+.navbar-text{
+    font-weight:600;
+}
+
+.btn-light{
+    border-radius:8px;
+}
+
 .navbar {
     background: linear-gradient(
         135deg,

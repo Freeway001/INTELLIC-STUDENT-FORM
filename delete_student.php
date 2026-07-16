@@ -1,5 +1,6 @@
 <?php
 require 'config.php';
+require 'auth.php';
 
 if (!isset($_GET['id']) || empty($_GET['id'])) {
     header("Location: students.php");

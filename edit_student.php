@@ -1,5 +1,6 @@
 <?php
 require 'config.php';
+require 'auth.php';
 
 if (!isset($_GET['id']) || empty($_GET['id'])) {
     header("Location: students.php");
@@ -133,18 +134,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <div class="collapse navbar-collapse" id="navbarNav">
 
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto align-items-center">
 
                 <li class="nav-item">
                     <a class="nav-link" href="index.php">Dashboard</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link active" href="students.php">Students</a>
+                    <a class="nav-link" href="students.php">Students</a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="add_student.php">Add Student</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-light btn-sm ms-2" href="logout.php">
+                        Logout
+                    </a>
                 </li>
 
             </ul>
