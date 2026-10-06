@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "password123";
 $dbname = "intellicstudentdb";
 
 $conn = mysqli_connect(

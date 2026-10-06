@@ -1,4 +1,4 @@
-/* ========= GENERAL ========= */
+
 
 body {
     background: #f5f7fb;
@@ -6,7 +6,7 @@ body {
     color: #2c3e50;
 }
 
-/* ========= NAVBAR ========= */
+
 
 .navbar-brand{
     font-size:1.6rem;
@@ -40,7 +40,7 @@ body {
     font-size: 1.3rem;
 }
 
-/* ========= CARDS ========= */
+
 
 .card {
     border: none;
@@ -57,7 +57,7 @@ body {
     font-weight: 600;
 }
 
-/* ========= DASHBOARD CARDS ========= */
+
 
 .stats-card {
     text-align: center;
@@ -78,7 +78,7 @@ body {
     color: #6c757d;
 }
 
-/* ========= BUTTONS ========= */
+
 
 .btn-primary {
     background: #0056b3;
@@ -98,7 +98,7 @@ body {
     border-radius: 10px;
 }
 
-/* ========= TABLES ========= */
+
 
 .table {
     margin-bottom: 0;
@@ -117,7 +117,6 @@ body {
     vertical-align: middle;
 }
 
-/* ========= FORMS ========= */
 
 .form-control,
 .form-select {
@@ -135,21 +134,21 @@ body {
         0 0 0 0.2rem rgba(0,86,179,.15);
 }
 
-/* ========= PAGE SPACING ========= */
+
 
 .page-container {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-/* ========= DETAILS ========= */
+
 
 .details-label {
     font-weight: 600;
     color: #003366;
 }
 
-/* ========= ALERTS ========= */
+
 
 .alert {
     border-radius: 12px;
