@@ -120,9 +120,17 @@ $total_students = mysqli_num_rows($result);
                 Students (<?php echo $total_students; ?>)
             </h4>
 
-            <a href="add_student.php" class="btn btn-light btn-sm">
-                Add Student
-            </a>
+            <div class="d-flex gap-2">
+
+                <a href="debtors.php" class="btn btn-warning btn-sm">
+                    Debtors
+                </a>
+
+                <a href="add_student.php" class="btn btn-light btn-sm">
+                    Add Student
+                </a>
+
+            </div>
 
         </div>
 
