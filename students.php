@@ -126,6 +126,29 @@ $total_students = mysqli_num_rows($result);
                     Debtors
                 </a>
 
+                <div class="dropdown d-inline-block">
+                    <a
+                        href="#"
+                        class="nav-link dropdown-toggle"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Expenses
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="expenses.php">
+                                Expenses
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="expense_categories.php">
+                                Expense Categories
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <a href="add_student.php" class="btn btn-light btn-sm">
                     Add Student
                 </a>
